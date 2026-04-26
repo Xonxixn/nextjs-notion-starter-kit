@@ -1,7 +1,7 @@
 import { type GetServerSideProps } from 'next'
 import { useState } from 'react'
 import { useRouter } from 'next/router'
-import { getBrands, Brand } from '@/lib/get-brands'
+import { getBrands, type Brand } from '@/lib/get-brands'
 
 const CATEGORIES = ['전체', '편집샵', '브랜드', '온라인몰', '빈티지/세컨핸드', '리셀', 'ETC']
 
