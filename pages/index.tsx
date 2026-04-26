@@ -3,17 +3,13 @@ import { NotionPage } from '@/components/NotionPage'
 import { domain } from '@/lib/config'
 import { resolveNotionPage } from '@/lib/resolve-notion-page'
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
   try {
     const props = await resolveNotionPage(domain)
-    return { props, revalidate: 10 }
+    return { props }
   } catch (err) {
     console.error('page error', domain, err)
-    // 429 에러면 빌드 실패 대신 fallback 반환
-    return {
-      props: {} as PageProps,
-      revalidate: 5
-    }
+    return { notFound: true }
   }
 }
 
