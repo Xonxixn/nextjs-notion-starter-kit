@@ -61,7 +61,7 @@ export default function Home() {
                 background: 'rgba(255,255,255,0.03)',
                 border: '1px solid rgba(255,255,255,0.07)',
                 borderRadius: 16,
-                padding: '40px 32px',
+                padding: '28px 20px',
                 cursor: section.available ? 'pointer' : 'default',
                 opacity: section.available ? 1 : 0.4,
                 transition: 'all 200ms ease',
