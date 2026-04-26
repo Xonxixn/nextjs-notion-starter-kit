@@ -9,8 +9,8 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  name: '국내 편집샵/브랜드 모음',
+  domain: 'krfashionxx.vercel.app',
   author: 'Travis Fischer',
 
   // open graph metadata (optional)
