@@ -30,7 +30,7 @@ export async function getBrands(): Promise<Brand[]> {
       const name = properties.title?.[0]?.[0] || ''
       if (!name) continue
 
-      const url = properties['p0_a']?.[0]?.[0] || ''
+      const url = properties['pO_a']?.[0]?.[0] || ''
       const category = properties['Tt_p']?.[0]?.[0] || ''
       const region = properties['YhPk']?.[0]?.[0] || ''
 
