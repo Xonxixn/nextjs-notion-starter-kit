@@ -1,4 +1,4 @@
-import { GetServerSideProps } from 'next'
+import { type GetServerSideProps } from 'next'
 import { useState } from 'react'
 import { useRouter } from 'next/router'
 import { getBrands, Brand } from '@/lib/get-brands'
