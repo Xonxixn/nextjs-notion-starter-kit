@@ -16,11 +16,11 @@ const SECTIONS = [
     available: false,
   },
   {
-    id: 'section3',
-    title: '준비중',
-    description: '곧 오픈예정',
-    href: '#',
-    available: false,
+  id: 'curated',
+  title: 'curated.',
+  description: '주제별 패션 아이템 큐레이션',
+  href: '/curated',
+  available: true,
   },
   {
     id: 'section4',
